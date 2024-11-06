@@ -1,0 +1,60 @@
+.container {
+    display: grid;
+    grid-template-columns: 760px 760px; 
+    grid-template-rows: auto 500px 400px auto; 
+    gap: 10px;
+    width: 1502px;
+    margin: 0 auto;
+}
+
+.inicio {
+    grid-column: 1 / -1;
+    height: 100px;
+    background-color: rgb(75, 75, 254);
+}
+
+.Frandy {
+    grid-column: 1 / 2;
+    height: 500px;
+    background-color: rgb(148, 147, 147);
+}
+
+.ca {
+    grid-column: 2 / 3; 
+    height: 500px;
+}
+
+.padre {
+    width: 700px;
+    height: 500px;
+    background-color: blue;
+    padding-top: 5px;
+}
+
+.hijo1 {
+    width: 680px;
+    height: 40%;
+    background-color: aqua;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.Jose {
+    width: 680px;
+    height: 40%;
+    background-color: aqua;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.Juanjo {
+    grid-column: 1 / -1;
+    height: 400px;
+    background-color: brown;
+}
+
+.final {
+    grid-column: 1 / -1; 
+    height: 100px;
+    background-color: rgb(75, 75, 254);
+}
